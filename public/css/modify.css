@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+	font-family: 'Poppins', sans-serif;
+}
+#navbar-logo {
+	height: 40px;
+	padding-left: 50px;
+	margin-top: -10px;
+	width: 150px;
+}
+.navbar-inverse {
+	background-color: #fff;
+	border-bottom: 1px solid #e6e6e6;
+	/*height: 60px;*/
+}
+.navbar-right span, i, a, h5 {
+	color: #00394d;
+	font-weight: bold;
+}
+/*.user-profile {
+	padding-top: 20px;
+	height: 60px;
+}*/
+.navbar-header a img {
+	height: 40px;
+	width: 140px;
+}
+.navbar-brand > img {
+	margin-top: -10px;
+}
+.sidebar-main {
+	background-color: #fff;
+	border-right: 1px solid #e6e6e6;
+}
+.sidebar-main span, a, small {
+	font-weight: bold;
+	color: rgb(48, 48, 48);
+}
+.navigation > li.active > a, .navigation > li.active > a:hover, .navigation > li.active > a:focus {
+	background-color: #80dfff;
+}
+.avatar {
+    box-shadow: -.3px 0px 0px 4px #c2d6d6;
+    width: 160px;
+    height: 150px;
+}
+.sidebar-left .sidebar-header .sidebar-toggle {
+    background-color: #34495e;
+}
+.sidebar-left {
+    background: #008080;
+}
+.navigation li > .has-ul:after {
+	color: rgb(48, 48, 48);
+}
+.navigation li {
+	border-bottom: 1px solid #e6e6e6;
+}
